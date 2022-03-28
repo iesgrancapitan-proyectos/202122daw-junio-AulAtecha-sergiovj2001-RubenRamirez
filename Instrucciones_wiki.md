@@ -21,6 +21,6 @@
    
 8. Haz un push forzando la subida
    
-   `git push wiki master -f`
+   `git push wiki main -f`
    
 9.  Actualiza el apartado wiki de tu repositorio. Ya deberías tener la plantilla de la wiki en tu repositorio.
