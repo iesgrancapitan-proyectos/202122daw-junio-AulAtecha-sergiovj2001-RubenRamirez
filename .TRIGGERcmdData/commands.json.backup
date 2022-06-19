@@ -1,0 +1,96 @@
+[
+ {
+  "trigger": "Notepad",
+  "command": "notepad",
+  "ground": "foreground",
+  "voice": "notepad"
+ },
+ {
+  "trigger": "Chrome",
+  "command": "start chrome",
+  "ground": "foreground",
+  "voice": "chrome"
+ },
+ {
+  "trigger": "Bajar volumen",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk voldown",
+  "ground": "foreground",
+  "voice": "Bajar volumen",
+  "voiceReply": "Bajando volumen"
+ },
+ {
+  "trigger": "Pausar",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk pause",
+  "ground": "foreground",
+  "voice": "Pausar",
+  "voiceReply": "Pausando"
+ },
+ {
+  "trigger": "Siguiente",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk next",
+  "ground": "foreground",
+  "voice": "Siguiente",
+  "voiceReply": ""
+ },
+ {
+  "trigger": "Reanudar",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk pause",
+  "ground": "foreground",
+  "voice": "Reanudar"
+ },
+ {
+  "trigger": "Parar",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk stop",
+  "ground": "foreground",
+  "voice": "Parar",
+  "voiceReply": "Parando "
+ },
+ {
+  "trigger": "Cerrar calculadora",
+  "command": "taskkill /IM Calculator.exe /F",
+  "ground": "foreground",
+  "voice": "Cerrar calculadora",
+  "voiceReply": "Cerrando calculadora"
+ },
+ {
+  "trigger": "Calculadora",
+  "command": "calc",
+  "ground": "foreground",
+  "voice": "Activar calculadora",
+  "voiceReply": "Abriendo calculadora"
+ },
+ {
+  "trigger": "Subir volumen",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk volup",
+  "ground": "foreground",
+  "voice": "subir volumen pc",
+  "voiceReply": "Subiendo volumen"
+ },
+ {
+  "trigger": "Silenciar",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk mute",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "Silenciar pc",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Anterior",
+  "command": "start C:\\\\autohotkeyscripts\\\\media.ahk previous",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "Anterior",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "ver video",
+  "command": "cd C:\\Program Files\\VideoLAN\\VLC & vlc C:\\Users\\sergi\\Videos\\Captures",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "",
+  "voiceReply": "",
+  "allowParams": "false"
+ }
+]
